@@ -1,0 +1,23 @@
+{
+  "name": "@veho-tech/error",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack",
+    "postbuild": "git add dist",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.12.1",
+    "eslint-loader": "^1.9.0",
+    "lodash": "^4.17.4",
+    "webpack": "^3.9.1"
+  },
+  "repository": "https://github.com/veho-technologies/veho-error.git",
+  "homepage": "https://github.com/veho-technologies/veho-error"
+}
